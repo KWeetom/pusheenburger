@@ -63,4 +63,31 @@ footer ul {
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-/* close commented backslash hack 
+/* close commented backslash hack */
+
+
+@media only screen  and (min-width : 275px) and (max-width : 768px) {
+  /* Styles */
+
+  .card ,.card1, .card2, .card3 {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+}
+
+
+/*Tablet*/
+@media only screen  and (min-width : 768px) and (max-width : 1224px) {
+/* Styles */
+    .card ,.card1, .card2, .card3 {
+    width: 45%;
+    margin-bottom: 5px;
+  }
+
+
+}
